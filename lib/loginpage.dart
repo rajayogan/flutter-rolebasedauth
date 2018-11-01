@@ -21,7 +21,7 @@ class _LoginPageState extends State<LoginPage> {
           onPressed: () {
             FirebaseAuth.instance
                 .signInWithEmailAndPassword(
-                    email: 'test30@t.com', password: 'test123')
+                    email: '<youremailhere>', password: '<passwordhere>')
                 .then((val) {
               print('Logged In');
             });
